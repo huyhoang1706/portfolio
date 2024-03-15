@@ -10,9 +10,9 @@ const Footer = () => {
                 Contact
             </h1>
             <p className="font-inter font-normal text-sm mb-5">
-                I'm currently looking to join a cross-functional team that
-                values improving people's lives through useful application. or
-                have a project in mind? Let's connect.
+                {
+                    "I'm currently looking to join a cross-functional team that values improving people's lives through useful application. or have a project in mind? Let's connect. "
+                }
             </p>
             <p className="font-inter font-normal text-sm">
                 hoangmhhe181370@fpt.edu.vn

@@ -45,7 +45,7 @@ export default function Home() {
                     Experience
                 </h1>
                 <p className="text-center mb-20">
-                    I'm experience in quite a lot of technologies
+                    {"I'm experience in quite a lot of technologies"}
                 </p>
                 <section className="w-full px-20">
                     <div className="flex flex-wrap gap-10 w-fit mx-auto items-center justify-center">

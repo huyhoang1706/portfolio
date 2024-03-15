@@ -1,10 +1,9 @@
 import "@/public/insta.svg";
 import "@/public/linkin.svg";
 import "@/public/mail.svg";
+import Image from "next/image";
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
     return (
         <div className="flex flex-col gap-5 w-screen h-full px-10 bg-black text-white mx-auto">
             <h1 className="font-notoSans font-extrabold text-2xl py-5 mt-20">
@@ -20,9 +19,19 @@ const Footer = (props: Props) => {
             </p>
             <div className="flex items-center">
                 <div className="flex mx-auto gap-6 ">
-                    <img src="insta.svg" alt="insta" />
-                    <img src="linkin.svg" alt="linkin" />
-                    <img src="mail.svg" alt="mail" />
+                    <Image
+                        src="/insta.svg"
+                        alt="insta"
+                        width="48"
+                        height="48"
+                    />
+                    <Image
+                        src="/linkin.svg"
+                        alt="linkin"
+                        width="48"
+                        height="48"
+                    />
+                    <Image src="/mail.svg" alt="mail" width="48" height="48" />
                 </div>
             </div>
             <h1 className="text-center font-notoSans">Hoang</h1>

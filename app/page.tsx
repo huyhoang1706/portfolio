@@ -1,18 +1,21 @@
-import "@/public/BG.jpg";
+import bgImg from "@/public/BG.jpg";
 import Project from "@/components/Project";
 import Exp from "@/components/Exp";
 import "@/public/rustLogo.svg";
 import "@/public/mongoDb.svg";
+import Image from "next/image";
 
 export default function Home() {
     return (
         <main className="bg-black">
             <section>
-                <div className="relative w-screen h-100 overflow-hidden">
-                    <img
-                        src="BG.jpg"
+                <div className="relative w-screen min-h-100 overflow-hidden">
+                    <Image
+                        src={bgImg}
                         alt="BG"
-                        className="object-cover w-full h-50"
+                        sizes="100vw"
+                        className="object-cover"
+                        priority={true}
                     />
                     <div className="absolute inset-0 flex flex-col items-center justify-center text-white font-notoSans">
                         <h2 className="text-xs sm:text-sm md:text-md lg:text-xl font-bold">

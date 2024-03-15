@@ -1,9 +1,6 @@
 import Project from "@/components/Project";
-import React from "react";
 
-type Props = {};
-
-const Projects = (props: Props) => {
+const Projects = () => {
     return (
         <main className="bg-black">
             <section>

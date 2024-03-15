@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const About = (props: Props) => {
+const About = () => {
     return (
         <main className="bg-black text-white">
             <p className="p-20 text-lg font-notoSans">
